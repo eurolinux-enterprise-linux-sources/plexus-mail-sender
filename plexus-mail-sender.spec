@@ -32,7 +32,7 @@
 
 Name:           plexus-mail-sender
 Version:        1.0
-Release:        0.a2.25%{?dist}
+Release:        1.a2.25%{?dist}
 Epoch:          0
 Summary:        Plexus Mail Sender
 License:        MIT and ASL 1.1
@@ -117,6 +117,9 @@ find . -iname 'pom.xml' -exec sed -i \
 
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 01.0-1.a2.25
+- Mass rebuild 2013-12-27
+
 * Fri Jun 28 2013 Mikolaj Izdebski <mizdebsk@redhat.com> - 0:1.0-0.a2.25
 - Rebuild to regenerate API documentation
 - Resolves: CVE-2013-1571
